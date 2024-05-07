@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(15, 18, 24);
+}
+
+#navbar-wrapper {
+  border: 1px solid rgb(165, 165, 235);
+  margin: 1.6vh auto auto 31.15vw;
+  height: 5.7vh;
+  width: 57.5vw;
+}
+
+#profile-wrapper {
+  border: 1px solid rgb(165, 165, 235);
+  margin: -5.7vh auto auto 11.22vw;
+  height: 89vh;
+  width: 19vw;
+  display: inline-block;
+}
+
+/* i targeted these two divs (.content-one and .content-two) by using their class >> in your html, target these divs by giving them your own ids for them, and use that id here. that way everyone can use this main.css file, the dimensions are still kept, but you're free to stylize or redo dimensions as you choose!!  */
+
+.content-one {
+  border: 1px solid red;
+  height: 40vh;
+  margin: -82vh auto auto 31.15vw;
+  width: 57.5vw;
+}
+
+.content-two {
+  border: 1px solid red;
+  margin: 1.85vh auto auto 31.15vw;
+  height: 39.55vh;
+  width: 57.5vw;
+}
+
+#footer-wrapper {
+  border: 1px solid rgb(165, 165, 235);
+  margin: 1.8vh auto 1.6vh 11.22vw;
+  height: 5.7vh;
+  width: 77.5vw;
+}
