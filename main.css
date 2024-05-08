@@ -33,9 +33,26 @@ body {
   width: 57.5vw;
 }
 
+a {
+  margin-top: 15px;
+  color: rgb(86, 160, 246);
+  text-decoration: none;
+}
+
+img {
+  transform: scale(0.8);
+  margin-top: 5px;
+}
 #footer-wrapper {
-  border: 1px solid rgb(165, 165, 235);
+  display: flex;
+  justify-content: space-around;
   margin: 1.8vh auto 1.6vh 11.22vw;
   height: 5.7vh;
   width: 77.5vw;
+  text-align: center;
+}
+
+footer p {
+  color: rgb(139, 148, 158);
+  margin-top: 15px;
 }
