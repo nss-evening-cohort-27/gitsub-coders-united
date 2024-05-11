@@ -32,9 +32,40 @@ body {
   margin: -5.7vh auto auto 11.22vw;
   height: 89vh;
   width: 19vw;
-  display: inline-block;
+  color: rgb(200, 209, 217);
 }
 
+#profile-wrapper h3 {
+  margin-top: -85px;
+}
+
+#profile-content {
+  /* text-align: left; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 3.45vw;
+  width: 95%;
+}
+
+#profile-content h5 {
+  color: rgb(139, 148, 158);
+}
+
+#profile-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+#profile-buttons button {
+  color: rgb(200, 209, 217);
+  background-color: rgb(33, 39, 44);
+  width: 28%;
+  border-radius: 6px;
+  border-style: none;
+  outline: 1px solid rgb(48, 55, 60);
+}
 /* i targeted these two divs (.content-one and .content-two) by using their class >> in your html, target these divs by giving them your own ids for them, and use that id here. that way everyone can use this main.css file, the dimensions are still kept, but you're free to stylize or redo dimensions as you choose!!  */
 
 .content-one {
@@ -61,6 +92,7 @@ img {
   transform: scale(0.8);
   margin-top: 5px;
 }
+
 #footer-wrapper {
   display: flex;
   justify-content: space-around;
@@ -73,4 +105,11 @@ img {
 footer p {
   color: rgb(139, 148, 158);
   margin-top: 15px;
+}
+
+#harry-potter {
+  transform: scale(0.5);
+  width: 100%;
+  margin-top: -70px;
+  border-radius: 50%;
 }
