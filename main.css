@@ -6,8 +6,26 @@ body {
   border: 1px solid rgb(165, 165, 235);
   margin: 1.6vh auto auto 31.15vw;
   height: 5.7vh;
-  width: 57.5vw;
+  width: 57.5vw; 
 }
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid pink;
+  color: red;
+  width: 55%;
+  line-height: 15px;
+}
+
+#navbar a {
+  border: 1px solid orange;
+  padding-top: -20px;
+}
+
+
+
 
 #profile-wrapper {
   border: 1px solid rgb(165, 165, 235);
