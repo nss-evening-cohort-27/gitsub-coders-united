@@ -6,7 +6,7 @@ body {
   border: 1px solid rgb(165, 165, 235);
   margin: 1.6vh auto auto 31.15vw;
   height: 5.7vh;
-  width: 57.5vw; 
+  width: 57.5vw;
 }
 
 #navbar {
@@ -24,15 +24,13 @@ body {
   padding-top: -20px;
 }
 
-
-
-
 #profile-wrapper {
-  border: 1px solid rgb(165, 165, 235);
+  /* border: 1px solid rgb(165, 165, 235); */
   margin: -5.7vh auto auto 11.22vw;
   height: 89vh;
   width: 19vw;
   color: rgb(200, 209, 217);
+  min-width: 300px;
 }
 
 #profile-wrapper h3 {
@@ -44,12 +42,13 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding-left: 3.45vw;
   width: 95%;
 }
 
 #profile-content h5 {
   color: rgb(139, 148, 158);
+  margin-top: -10px;
+  margin-bottom: 15px;
 }
 
 #profile-buttons {
@@ -61,10 +60,25 @@ body {
 #profile-buttons button {
   color: rgb(200, 209, 217);
   background-color: rgb(33, 39, 44);
-  width: 28%;
+  width: 30%;
   border-radius: 6px;
   border-style: none;
   outline: 1px solid rgb(48, 55, 60);
+}
+
+#follower-count {
+  border: 1px solid red;
+}
+
+#highlights-content,
+#organizations-content,
+#profile-content,
+#sponsors-content {
+  padding-left: 3.45vw;
+}
+
+#help {
+  margin-top: -5px;
 }
 /* i targeted these two divs (.content-one and .content-two) by using their class >> in your html, target these divs by giving them your own ids for them, and use that id here. that way everyone can use this main.css file, the dimensions are still kept, but you're free to stylize or redo dimensions as you choose!!  */
 
@@ -88,7 +102,7 @@ a {
   text-decoration: none;
 }
 
-img {
+footer img {
   transform: scale(0.8);
   margin-top: 5px;
 }
@@ -100,6 +114,7 @@ img {
   height: 5.7vh;
   width: 77.5vw;
   text-align: center;
+  min-width: 830px;
 }
 
 footer p {
@@ -112,4 +127,15 @@ footer p {
   width: 100%;
   margin-top: -70px;
   border-radius: 50%;
+}
+
+#organizations-content img,
+#sponsors-content img {
+  transform: scale(1.2);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#sponsors-content {
+  margin-top: 10px;
 }
