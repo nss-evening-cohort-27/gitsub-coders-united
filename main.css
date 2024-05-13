@@ -92,7 +92,7 @@ body {
 .content-two {
   border: 1px solid red;
   margin: 1.85vh auto auto 31.15vw;
-  height: 39.55vh;
+  height: auto;
   width: 57.5vw;
 }
 
@@ -129,6 +129,7 @@ footer p {
   border-radius: 50%;
 }
 
+
 #organizations-content img,
 #sponsors-content img {
   transform: scale(1.2);
@@ -139,3 +140,10 @@ footer p {
 #sponsors-content {
   margin-top: 10px;
 }
+
+/* START CREATE REPO FORM */
+
+.repo-form{
+  color: white;
+}
+
