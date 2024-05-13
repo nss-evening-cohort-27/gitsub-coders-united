@@ -78,7 +78,7 @@ body {
 .content-two {
   border: 1px solid red;
   margin: 1.85vh auto auto 31.15vw;
-  height: 39.55vh;
+  height: auto;
   width: 57.5vw;
 }
 
@@ -112,4 +112,10 @@ footer p {
   width: 100%;
   margin-top: -70px;
   border-radius: 50%;
+}
+
+/* START CREATE REPO FORM */
+
+.repo-form{
+  color: white;
 }
