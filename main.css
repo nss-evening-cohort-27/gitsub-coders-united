@@ -13,14 +13,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid pink;
-  color: red;
+  color: grey;
   width: 55%;
   line-height: 15px;
 }
 
 #navbar a {
-  border: 1px solid orange;
   padding-top: -20px;
 }
 
