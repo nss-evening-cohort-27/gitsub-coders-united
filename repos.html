@@ -14,32 +14,52 @@
     <title>Document</title>
   </head>
   <body>
-    <header id="navbar-wrapper"></header>
+    <header id="navbar-wrapper">
+      <div id="navbar">
+        <a class="nav-item nav-link active" href="./overview.html">Overview</a>
+        <a class="nav-item nav-link" href="./repos.html">Repositories</a>
+        <a class="nav-item nav-link" href="./projects.html">Projects</a>
+        <a class="nav-item nav-link" href="./packages.html">Packages</a>
+      </div>
+    </header>
     <div id="profile-wrapper"></div>
     <div class="content-one"></div>
     <div class="content-two">
       <form class="repo-form">
         <h3>Create a new repository</h3>
-        <p>A repository contains all project files, including the revision history. Already have a project repository elsewhere? <a href="#">Import a repository.</a></p>
-        <hr>
+        <p>
+          A repository contains all project files, including the revision
+          history. Already have a project repository elsewhere?
+          <a href="#">Import a repository.</a>
+        </p>
+        <hr />
         <div class="mb-3">
           <label for="repoOwner" class="form-label">Repository Owner*</label>
-          <input type="text" class="form-control" id="repoOwner">
+          <input type="text" class="form-control" id="repoOwner" />
         </div>
         <div class="mb-3">
           <label for="repoName" class="form-label">Repository Name*</label>
-          <input type="text" class="form-control" id="repoName">
+          <input type="text" class="form-control" id="repoName" />
         </div>
         <div class="nameSuggestion">
-          <p>Great repository names are short and memorable. Need inspiration? How about <span style="color: #3FB94F;">green-fish-backpack </span>?</p>
+          <p>
+            Great repository names are short and memorable. Need inspiration?
+            How about <span style="color: #3fb94f">green-fish-backpack </span>?
+          </p>
         </div>
         <div class="mb-3">
           <label for="repoDescritpion" class="form-label">Descritpion</label>
-          <textarea class="form-control" id="repoDescritpion" rows="3"></textarea>
+          <textarea
+            class="form-control"
+            id="repoDescritpion"
+            rows="3"
+          ></textarea>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Add a README File</label>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Add a README File</label
+          >
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
