@@ -3,7 +3,6 @@ body {
 }
 
 #navbar-wrapper {
-  border: 1px solid rgb(165, 165, 235);
   margin: 1.6vh auto auto 31.15vw;
   height: 5.7vh;
   width: 57.5vw;
@@ -15,11 +14,17 @@ body {
   justify-content: space-around;
   color: grey;
   width: 55%;
-  line-height: 15px;
 }
 
 #navbar a {
-  padding-top: -20px;
+  margin-top: 30px;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+#navbar a:hover {
+  color: rgb(197, 206, 214);
+  border-bottom: 1px solid rgb(250, 130, 107);
 }
 
 #profile-wrapper {
@@ -78,6 +83,7 @@ body {
 #help {
   margin-top: -5px;
 }
+
 /* i targeted these two divs (.content-one and .content-two) by using their class >> in your html, target these divs by giving them your own ids for them, and use that id here. that way everyone can use this main.css file, the dimensions are still kept, but you're free to stylize or redo dimensions as you choose!!  */
 
 .content-one {
@@ -95,9 +101,8 @@ body {
 }
 
 .content-two {
-  border: 1px solid red;
   margin: 1.85vh auto auto 31.15vw;
-  height: auto;
+  height: 40vh;
   width: 57.5vw;
 }
 
@@ -134,7 +139,6 @@ footer p {
   border-radius: 50%;
 }
 
-
 #organizations-content img,
 #sponsors-content img {
   transform: scale(1.2);
@@ -148,6 +152,23 @@ footer p {
 
 /* START CREATE REPO FORM */
 
-.repo-form{
-  color: white;
+.repo-form {
+  color: rgb(200, 209, 217);
 }
+
+.repo-form input,
+.repo-form textarea,
+.repo-form input:focus,
+.repo-form textarea:focus {
+  background-color: rgb(9, 13, 19);
+  border-style: none;
+  color: rgb(200, 209, 217);
+}
+
+
+
+.repo-form .btn {
+  background-color: rgb(35, 134, 54);
+  border-color: rgb(46, 160, 67);
+}
+
