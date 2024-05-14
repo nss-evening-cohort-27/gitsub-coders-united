@@ -87,6 +87,13 @@ body {
   width: 57.5vw;
 }
 
+.content-one-packages{
+  border: 1px solid red;
+  min-height: 50vh;
+  margin: -82vh auto auto 31.15vw;
+  width: 57.5vw;
+}
+
 .content-two {
   border: 1px solid red;
   margin: 1.85vh auto auto 31.15vw;
@@ -144,4 +151,3 @@ footer p {
 .repo-form{
   color: white;
 }
-

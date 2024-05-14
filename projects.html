@@ -57,8 +57,23 @@
         <img src="./components/dumble.png">
       </div>
     </div>
-    <div class="content-one"></div>
-    <div class="content-two"></div>
+    <div class="content-one" id="content-one"></div>
+    <div class="content-two">
+      <form class="repo-form">
+        <h3>Create a new project</h3>
+        <p>Coordinate, track, and update your work in one place, so projects stay transparent and on schedule</p>
+        <hr>
+        <div class="mb-3">
+          <label for="repoOwner" class="form-label">Project board name</label>
+          <input type="text" class="form-control" id="repoOwner">
+        </div>
+        <div class="mb-3">
+          <label for="repoDescritpion" class="form-label">Descritpion</label>
+          <textarea class="form-control" id="repoDescritpion" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Create Project</button>
+      </form>
+    </div>
     <footer id="footer-wrapper">
       <footer id="footer-wrapper">
         <p>&#169; 2021 GitHub, Inc</p>
