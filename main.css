@@ -94,7 +94,6 @@ body {
 }
 
 .content-two {
-  border: 1px solid red;
   margin: 1.85vh auto auto 31.15vw;
   height: 40vh;
   width: 57.5vw;
@@ -147,5 +146,19 @@ footer p {
 /* START CREATE REPO FORM */
 
 .repo-form {
-  color: white;
+  color: rgb(200, 209, 217);
+}
+
+.repo-form input,
+.repo-form textarea,
+.repo-form input:focus,
+.repo-form textarea:focus {
+  background-color: rgb(9, 13, 19);
+  border-style: none;
+  color: rgb(200, 209, 217);
+}
+
+.repo-form .btn {
+  background-color: rgb(35, 134, 54);
+  border-color: rgb(46, 160, 67);
 }

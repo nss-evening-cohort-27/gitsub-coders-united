@@ -63,7 +63,35 @@
     </div>
 
     <div class="content-one"></div>
-    <div class="content-two"></div>
+    <div class="content-two"><form class="repo-form">
+      <h3>Create a new project</h3>
+      <p>
+        Coordinate, track, and update your work in one place, so projects stay transparent and on schedule.
+      </p>
+      <hr />
+      <div class="mb-3">
+        <label for="repoName" class="form-label" style="font-weight: bold;">Project board name</label>
+        <input type="text" class="form-control" id="repoName" autocomplete="off"/>
+      </div>
+      <div class="nameSuggestion">
+      </div>
+      <div class="mb-3">
+        <label for="repoDescription" class="form-label" style="font-weight: bold;">Description</label>
+        <textarea
+          class="form-control"
+          id="repoDescription"
+          autocomplete="off"
+          rows="3"
+        ></textarea>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1"
+          >Add a README File</label
+        >
+      </div>
+      <button type="submit" class="btn btn-primary">Create project</button>
+    </form></div>
 
 
     <footer id="footer-wrapper">
