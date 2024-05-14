@@ -58,6 +58,7 @@
     </div>
     <div class="content-one"></div>
     <div class="content-two">
+
       <form class="repo-form">
         <h3>Create a new repository</h3>
         <p>
@@ -67,12 +68,8 @@
         </p>
         <hr />
         <div class="mb-3">
-          <label for="repoOwner" class="form-label">Repository Owner*</label>
-          <input type="text" class="form-control" id="repoOwner" />
-        </div>
-        <div class="mb-3">
           <label for="repoName" class="form-label">Repository Name*</label>
-          <input type="text" class="form-control" id="repoName" />
+          <input type="text" class="form-control" id="repoName" autocomplete="off"/>
         </div>
         <div class="nameSuggestion">
           <p>
@@ -81,10 +78,11 @@
           </p>
         </div>
         <div class="mb-3">
-          <label for="repoDescritpion" class="form-label">Descritpion</label>
+          <label for="repoDescription" class="form-label">Description</label>
           <textarea
             class="form-control"
-            id="repoDescritpion"
+            id="repoDescription"
+            autocomplete="off"
             rows="3"
           ></textarea>
         </div>
@@ -94,7 +92,7 @@
             >Add a README File</label
           >
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Create repository</button>
       </form>
     </div>
     <footer id="footer-wrapper">
